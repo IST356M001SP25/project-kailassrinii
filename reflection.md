@@ -23,3 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+streamlit run code/dashboard.py
