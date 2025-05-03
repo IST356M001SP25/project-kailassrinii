@@ -6,14 +6,12 @@
 import os
 import subprocess
 
-# Run extract.py from the root directory
+# extract.py to update json file
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 extract_path = os.path.join(project_root, "run_extract.py")
 subprocess.run(["python", extract_path], check=True)
 
-
-
-
+#...
 
 import streamlit as st
 import pandas as pd
@@ -23,22 +21,22 @@ import folium
 from streamlit_folium import st_folium
 from folium.plugins import MarkerCluster
 
-# Load data from local JSON
+# Load data from data
 df = load_and_transform()
 df = df[df["City"].str.lower() == "syracuse"]
 df["Date"] = pd.to_datetime(df["Date"])
 
-# Set default date range
+# Date range
 min_date = df["Date"].min().date()
 max_date = df["Date"].max().date()
 
-# --- Set defaults in session state ---
+# Default search
 if "artist_search" not in st.session_state:
     st.session_state.artist_search = ""
 if "date_range" not in st.session_state:
     st.session_state.date_range = (min_date, max_date)
 
-# --- Sidebar Filters ---
+# Filters
 st.sidebar.header("Filter Concerts")
 
 # Reset button
@@ -70,18 +68,18 @@ filtered_df = filtered_df[
     (pd.to_datetime(filtered_df["Date"]).dt.date <= selected_range[1])
 ]
 
-# ---- Main App ----
-st.title("Kailas Srinivasan Concert & Event Tracker — Syracuse")
+# Main
+st.title("Syracuse Concert Tracker")
 st.markdown("---")
 
 if filtered_df.empty:
     st.warning("No concerts found for the selected filters.")
     st.markdown("Try broadening your filters — clear the artist field or expand the date range.")
 else:
-    # Interactive Folium Map
+    # Interactive Map
     map_df = filtered_df.dropna(subset=["Latitude", "Longitude"])
     if not map_df.empty:
-        st.subheader("🗺️ Interactive Map")
+        st.subheader("Interactive Map")
 
         map_center = [map_df["Latitude"].mean(), map_df["Longitude"].mean()]
         m = folium.Map(location=map_center, zoom_start=12, tiles="CartoDB Positron")
@@ -104,28 +102,33 @@ else:
         st_folium(m, width=700, height=500)
         st.markdown("---")
 
-    # Concert Table
-    st.subheader("🎵 Upcoming Concerts")
-    filtered_df["Date"] = pd.to_datetime(filtered_df["Date"]).dt.strftime("%B %d, %Y")
-    filtered_df["Time"] = pd.to_datetime(filtered_df["Time"], format="%H:%M:%S", errors="coerce").dt.strftime("%I:%M %p")
+# Concert Table
+st.subheader("Upcoming Concerts")
+filtered_df["Date"] = pd.to_datetime(filtered_df["Date"]).dt.strftime("%B %d, %Y")
+filtered_df["Time"] = pd.to_datetime(filtered_df["Time"], format="%H:%M:%S", errors="coerce").dt.strftime("%I:%M %p")
+st.dataframe(filtered_df[["Name", "Date", "Time", "Venue", "Ticket URL"]], use_container_width=True)
+st.markdown("---")
 
-    st.dataframe(filtered_df[["Name", "Date", "Time", "Venue", "Ticket URL"]], use_container_width=True)
-    st.markdown("---")
+# Events Chart
+st.subheader("Most Popular Venue")
+venue_counts = filtered_df["Venue"].value_counts().reset_index()
+venue_counts.columns = ["Venue", "Event Count"]
+fig = px.bar(venue_counts, x="Venue", y="Event Count", title="Events per Venue")
+st.plotly_chart(fig)
+st.markdown("---")
 
-    # Events per Venue Chart
-    st.subheader("📊 Events per Venue")
-    venue_counts = filtered_df["Venue"].value_counts().reset_index()
-    venue_counts.columns = ["Venue", "Event Count"]
-    fig = px.bar(venue_counts, x="Venue", y="Event Count", title="Events per Venue")
-    st.plotly_chart(fig)
-    st.markdown("---")
+# Featured Events
+st.subheader("Featured Events")
+for _, row in filtered_df.head(3).iterrows():
+    with st.container():
+        st.markdown(f"### {row['Name']}")
+        st.markdown(f"**{row['Date']}** at *{row['Venue']}*")
+        st.image(row["Image"], use_container_width=True)
+        st.link_button("🎟️ Buy Tickets", row["Ticket URL"])
+        st.markdown("---")
 
-    # Featured Events
-    st.subheader("🎤 Featured Events")
-    for _, row in filtered_df.head(3).iterrows():
-        with st.container():
-            st.markdown(f"### {row['Name']}")
-            st.markdown(f"**{row['Date']}** at *{row['Venue']}*")
-            st.image(row["Image"], use_container_width=True)
-            st.link_button("🎟️ Buy Tickets", row["Ticket URL"])
-            st.markdown("---")
+# Created By      
+st.markdown("<div style='text-align: center; font-size: 12px;'>Created by Kailas Srinivasan</div>", unsafe_allow_html=True)
+st.image("logo.png", width=150)  # adjust width as needed
+
+
