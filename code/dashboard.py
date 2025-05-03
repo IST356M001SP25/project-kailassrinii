@@ -11,7 +11,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 extract_path = os.path.join(project_root, "run_extract.py")
 subprocess.run(["python", extract_path], check=True)
 
-#...
+
 
 import streamlit as st
 import pandas as pd
@@ -20,6 +20,7 @@ import plotly.express as px
 import folium
 from streamlit_folium import st_folium
 from folium.plugins import MarkerCluster
+import base64
 
 
 # Load data from data
@@ -38,8 +39,7 @@ if "date_range" not in st.session_state:
     st.session_state.date_range = (min_date, max_date)
 
 
-import base64
-
+# Logo
 def get_base64_image(image_path):
     with open(image_path, "rb") as f:
         data = f.read()
