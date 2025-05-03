@@ -25,4 +25,3 @@ Examples:
 
 I had a solid understanding of pulling API data, but combining it with Streamlit and Folium took some figuring out. I had to watch some Youtube videos that really helped me figure out how to intergrate the Folium map. Getting the data to refresh automatically and making sure it displayed cleanly was something I we had done in past assignments, so it was pretty easy. I also realized how much styling and layout can affect the usability of an app. I might want more practice customizing Streamlit components even further with CSS.
 
-streamlit run code/dashboard.py
