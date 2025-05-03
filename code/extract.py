@@ -10,9 +10,8 @@ import json
 load_dotenv()
 
 def get_concert_data(city="Syracuse", size=20):
-    api_key = os.getenv("TICKETMASTER_API_KEY")
-    if not api_key:
-        raise ValueError("Missing TICKETMASTER_API_KEY")
+    api_key = "kT4Hd2l1jHPGK9rqEY6OH16P0EJCK8qt"
+
 
     url = "https://app.ticketmaster.com/discovery/v2/events.json"
     params = {
