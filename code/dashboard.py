@@ -21,6 +21,7 @@ import folium
 from streamlit_folium import st_folium
 from folium.plugins import MarkerCluster
 
+
 # Load data from data
 df = load_and_transform()
 df = df[df["City"].str.lower() == "syracuse"]
@@ -35,6 +36,27 @@ if "artist_search" not in st.session_state:
     st.session_state.artist_search = ""
 if "date_range" not in st.session_state:
     st.session_state.date_range = (min_date, max_date)
+
+
+import base64
+
+def get_base64_image(image_path):
+    with open(image_path, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+
+logo_base64 = get_base64_image("logo.png")  # Adjust path if needed
+
+st.sidebar.markdown(
+    f"""
+    <div style="display: flex; justify-content: center; align-items: center; padding: 10px;">
+        <div style="background-color: #5c5b5b; border-radius: 50%; padding: 20px;">
+            <img src="data:image/png;base64,{logo_base64}" width="80">
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Filters
 st.sidebar.header("Filter Concerts")
