@@ -1,4 +1,4 @@
-# Clean the JSON and pull key info: event name, date, venue, price, genre, location (have coordinates)
+# Clean the JSON and pull info: event name, date, venue, price, genre, venue  
 
 import pandas as pd
 import json
@@ -9,7 +9,6 @@ def load_and_transform():
 
     events = raw["_embedded"]["events"]
     rows = []
-
     for event in events:
         name = event["name"]
         date = event["dates"]["start"]["localDate"]

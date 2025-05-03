@@ -11,8 +11,6 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 extract_path = os.path.join(project_root, "run_extract.py")
 subprocess.run(["python", extract_path], check=True)
 
-
-
 import streamlit as st
 import pandas as pd
 from transform import load_and_transform
@@ -21,6 +19,45 @@ import folium
 from streamlit_folium import st_folium
 from folium.plugins import MarkerCluster
 import base64
+
+# Styling Stuff
+st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+    html, body, [class*="css"]  {
+        font-family: 'Orbitron', sans-serif;
+    }
+    [data-testid="stSidebar"] {
+        background-color: #1e1e1e;
+        color: white;
+    }
+    [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] .stSlider,
+    [data-testid="stSidebar"] .stTextInput label {
+        color: white;
+    }
+    [data-testid="stSidebar"] input,
+    [data-testid="stSidebar"] .stTextInput input,
+    [data-testid="stSidebar"] .stDateInput input {
+        background-color: white;
+        color: #1e1e1e;
+        border: 1px solid #ccc;
+    }
+
+    /* Keep Reset Filters text blue always */
+    .stButton>button {
+        color: #1f77b4 !important;
+        background-color: #f0f2f6 !important;
+        border: none;
+        border-radius: 8px;
+        transition: 0.2s ease-in-out;
+    }
+    .stButton>button:hover {
+        color: #1f77b4 !important;
+        background-color: #e1e5ed !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 
 # Load data from data
@@ -38,19 +75,18 @@ if "artist_search" not in st.session_state:
 if "date_range" not in st.session_state:
     st.session_state.date_range = (min_date, max_date)
 
-
 # Logo
 def get_base64_image(image_path):
     with open(image_path, "rb") as f:
         data = f.read()
     return base64.b64encode(data).decode()
 
-logo_base64 = get_base64_image("logo.png")  # Adjust path if needed
+logo_base64 = get_base64_image("logo.png")  
 
 st.sidebar.markdown(
     f"""
     <div style="display: flex; justify-content: center; align-items: center; padding: 10px;">
-        <div style="background-color: #5c5b5b; border-radius: 50%; padding: 20px;">
+        <div style="background-color: #333; border-radius: 50%; padding: 20px;">
             <img src="data:image/png;base64,{logo_base64}" width="80">
         </div>
     </div>
@@ -91,12 +127,16 @@ filtered_df = filtered_df[
 ]
 
 # Main
-st.title("Syracuse Concert Tracker")
-st.markdown("---")
+st.markdown("""
+    <div style="background-color:#001f3f;padding:10px 20px;border-radius:6px;margin-bottom:20px;">
+        <h1 style="color:white;margin:0;">Syracuse Concert Tracker</h1>
+        <p style="color:#ccc;margin:0;"></p>
+    </div>
+""", unsafe_allow_html=True)
 
 if filtered_df.empty:
     st.warning("No concerts found for the selected filters.")
-    st.markdown("Try broadening your filters — clear the artist field or expand the date range.")
+    st.markdown("Try broadening your filters.")
 else:
     # Interactive Map
     map_df = filtered_df.dropna(subset=["Latitude", "Longitude"])
@@ -104,7 +144,7 @@ else:
         st.subheader("Interactive Map")
 
         map_center = [map_df["Latitude"].mean(), map_df["Longitude"].mean()]
-        m = folium.Map(location=map_center, zoom_start=12, tiles="CartoDB Positron")
+        m = folium.Map(location=map_center, zoom_start=12, tiles="CartoDB Dark_Matter")
         marker_cluster = MarkerCluster().add_to(m)
 
         for _, row in map_df.iterrows():
@@ -143,14 +183,15 @@ st.markdown("---")
 st.subheader("Featured Events")
 for _, row in filtered_df.head(3).iterrows():
     with st.container():
-        st.markdown(f"### {row['Name']}")
-        st.markdown(f"**{row['Date']}** at *{row['Venue']}*")
-        st.image(row["Image"], use_container_width=True)
-        st.link_button("🎟️ Buy Tickets", row["Ticket URL"])
-        st.markdown("---")
+        st.markdown(f"""
+        <div style='padding: 20px; background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-bottom: 20px;'>
+            <h3 style='margin-bottom: 5px;'>{row['Name']}</h3>
+            <p><strong>{row['Date']}</strong> at <em>{row['Venue']}</em></p>
+            <img src="{row['Image']}" style='width: 100%; border-radius: 10px;'/>
+            <br><br>
+            <a href="{row['Ticket URL']}" target="_blank" style='display: inline-block; background-color: #007bff; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;'>🎟️ Buy Tickets</a>
+        </div>
+        """, unsafe_allow_html=True)
 
-# Created By      
+# Name  
 st.markdown("<div style='text-align: center; font-size: 12px;'>Created by Kailas Srinivasan</div>", unsafe_allow_html=True)
-st.image("logo.png", width=150)  # adjust width as needed
-
-
