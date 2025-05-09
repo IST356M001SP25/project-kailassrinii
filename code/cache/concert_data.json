@@ -710,12 +710,12 @@
                 "mfx-fi": 5,
                 "mfx-ch": 1,
                 "tmr": 3,
-                "ticketmaster": 41,
+                "ticketmaster": 42,
                 "mfx-de": 13,
                 "mfx-no": 1,
                 "mfx-it": 6,
                 "mfx-pl": 3,
-                "_total": 79,
+                "_total": 80,
                 "_filtered": 0
               },
               "_links": {
@@ -1559,8 +1559,8 @@
                 "latitude": "43.051315720388"
               },
               "upcomingEvents": {
-                "ticketweb": 10,
-                "_total": 10,
+                "ticketweb": 8,
+                "_total": 8,
                 "_filtered": 0
               },
               "_links": {
@@ -2280,14 +2280,552 @@
                 "latitude": "43.048366"
               },
               "upcomingEvents": {
-                "ticketweb": 66,
+                "ticketweb": 60,
                 "ticketmaster": 1,
-                "_total": 67,
+                "_total": 61,
                 "_filtered": 0
               },
               "_links": {
                 "self": {
                   "href": "/discovery/v2/venues/rZ7HnEZ178MpA?locale=en-us"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "TX2",
+        "type": "event",
+        "id": "rZ7HnEZ1AfGvbd",
+        "test": false,
+        "url": "https://www.ticketweb.com/event/tx2-the-song-dance-tickets/14301603",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false
+          },
+          {
+            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_SOURCE",
+            "width": 2624,
+            "height": 1365,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false
+          }
+        ],
+        "sales": {
+          "public": {
+            "startDateTime": "2025-03-21T14:00:00Z",
+            "startTBD": false,
+            "startTBA": false,
+            "endDateTime": "2025-05-24T23:30:00Z"
+          }
+        },
+        "dates": {
+          "access": {
+            "startDateTime": "2025-05-24T22:00:00Z",
+            "startApproximate": false,
+            "endApproximate": false
+          },
+          "start": {
+            "localDate": "2025-05-24",
+            "localTime": "19:00:00",
+            "dateTime": "2025-05-24T23:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "end": {
+            "approximate": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "onsale"
+          },
+          "spanMultipleDays": false
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAeA",
+              "name": "Rock"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7v6AI",
+              "name": "Emo"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7nI",
+              "name": "Undefined"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7v7lJ",
+              "name": "Undefined"
+            },
+            "family": false
+          },
+          {
+            "primary": false,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAeA",
+              "name": "Rock"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7v6kl",
+              "name": "Hard Rock"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7nI",
+              "name": "Undefined"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7v7lJ",
+              "name": "Undefined"
+            },
+            "family": false
+          },
+          {
+            "primary": false,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAeA",
+              "name": "Rock"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7v6da",
+              "name": "Rock"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7nI",
+              "name": "Undefined"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7v7lJ",
+              "name": "Undefined"
+            },
+            "family": false
+          }
+        ],
+        "info": "After Dark PresentsTX2with special guest Dark Divine & Jeremy RomanceAge Restriction: 16+ Admitted with ID / Under 16 Admitted with Guardian",
+        "pleaseNote": "This event is 16 and over. Any ticket holder unable to present valid identification indicating that they are at least 16 years of age will not be admitted to this event, and will not be eligible for a refund.",
+        "priceRanges": [
+          {
+            "type": "standard",
+            "currency": "USD",
+            "min": 31.85,
+            "max": 31.85
+          }
+        ],
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/events/rZ7HnEZ1AfGvbd?locale=en-us"
+          },
+          "attractions": [
+            {
+              "href": "/discovery/v2/attractions/K8vZ917hIXf?locale=en-us"
+            },
+            {
+              "href": "/discovery/v2/attractions/K8vZ917hay7?locale=en-us"
+            }
+          ],
+          "venues": [
+            {
+              "href": "/discovery/v2/venues/rZ7HnEZ17fJkA?locale=en-us"
+            }
+          ]
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "The Song & Dance",
+              "type": "venue",
+              "id": "rZ7HnEZ17fJkA",
+              "test": false,
+              "url": "https://www.ticketweb.com/venue/the-song--dance-syracuse-ny/526185",
+              "locale": "en-us",
+              "postalCode": "13202",
+              "timezone": "America/New_York",
+              "city": {
+                "name": "Syracuse"
+              },
+              "state": {
+                "name": "New York",
+                "stateCode": "NY"
+              },
+              "country": {
+                "name": "United States Of America",
+                "countryCode": "US"
+              },
+              "address": {
+                "line1": " 115 E Jefferson Street"
+              },
+              "location": {
+                "longitude": "-76.1518037",
+                "latitude": "43.0474234"
+              },
+              "upcomingEvents": {
+                "ticketweb": 32,
+                "_total": 32,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/venues/rZ7HnEZ17fJkA?locale=en-us"
+                }
+              }
+            }
+          ],
+          "attractions": [
+            {
+              "name": "TX2",
+              "type": "attraction",
+              "id": "K8vZ917hIXf",
+              "test": false,
+              "url": "https://www.ticketmaster.com/tx2-tickets/artist/3049375",
+              "locale": "en-us",
+              "externalLinks": {
+                "musicbrainz": [
+                  {
+                    "id": "6093443d-d1fd-4bf0-b058-63840f11c0cd",
+                    "url": "https://musicbrainz.org/artist/6093443d-d1fd-4bf0-b058-63840f11c0cd"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_SOURCE",
+                  "width": 2624,
+                  "height": 1365,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": {
+                    "id": "KZFzniwnSyZfZ7v7nJ",
+                    "name": "Music"
+                  },
+                  "genre": {
+                    "id": "KnvZfZ7vAvv",
+                    "name": "Alternative"
+                  },
+                  "subGenre": {
+                    "id": "KZazBEonSMnZfZ7vAvn",
+                    "name": "Alternative Rock"
+                  },
+                  "type": {
+                    "id": "KZAyXgnZfZ7v7la",
+                    "name": "Individual"
+                  },
+                  "subType": {
+                    "id": "KZFzBErXgnZfZ7vAde",
+                    "name": "Singer/Vocalist"
+                  },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "ticketmaster": 18,
+                "ticketweb": 3,
+                "_total": 21,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ917hIXf?locale=en-us"
+                }
+              }
+            },
+            {
+              "name": "Dark Divine",
+              "type": "attraction",
+              "id": "K8vZ917hay7",
+              "test": false,
+              "url": "https://www.ticketmaster.com/dark-divine-tickets/artist/2975913",
+              "locale": "en-us",
+              "externalLinks": {
+                "spotify": [
+                  {
+                    "url": "https://open.spotify.com/artist/3CMyREgx8ZErRUydXlmCDX"
+                  }
+                ],
+                "musicbrainz": [
+                  {
+                    "id": "ba27e2d0-ca52-4e84-8130-a9ca10d15e74",
+                    "url": "https://musicbrainz.org/artist/ba27e2d0-ca52-4e84-8130-a9ca10d15e74"
+                  }
+                ],
+                "instagram": [
+                  {
+                    "url": "https://www.instagram.com/darkdivineofficial/"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_SOURCE",
+                  "width": 2426,
+                  "height": 1365,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": {
+                    "id": "KZFzniwnSyZfZ7v7nJ",
+                    "name": "Music"
+                  },
+                  "genre": {
+                    "id": "KnvZfZ7vAeA",
+                    "name": "Rock"
+                  },
+                  "subGenre": {
+                    "id": "KZazBEonSMnZfZ7v6kl",
+                    "name": "Hard Rock"
+                  },
+                  "type": {
+                    "id": "KZAyXgnZfZ7v7l1",
+                    "name": "Group"
+                  },
+                  "subType": {
+                    "id": "KZFzBErXgnZfZ7vA71",
+                    "name": "Band"
+                  },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "ticketmaster": 16,
+                "ticketweb": 2,
+                "_total": 18,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ917hay7?locale=en-us"
                 }
               }
             }
@@ -2573,6 +3111,13 @@
             "fallback": true
           },
           {
+            "ratio": "3_2",
+            "url": "https://i.ticketweb.com/i/00/12/87/08/63_Edp.jpg?v=5",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          },
+          {
             "ratio": "16_9",
             "url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
             "width": 2048,
@@ -2613,13 +3158,6 @@
             "width": 205,
             "height": 115,
             "fallback": true
-          },
-          {
-            "ratio": "3_2",
-            "url": "https://i.ticketweb.com/i/00/12/87/08/63_Edp.jpg?v=4",
-            "width": 640,
-            "height": 427,
-            "fallback": false
           }
         ],
         "sales": {
@@ -2690,8 +3228,8 @@
           {
             "type": "standard",
             "currency": "USD",
-            "min": 24.9,
-            "max": 24.9
+            "min": 35.96,
+            "max": 35.96
           }
         ],
         "_links": {
@@ -2734,8 +3272,8 @@
                 "latitude": "43.051315720388"
               },
               "upcomingEvents": {
-                "ticketweb": 10,
-                "_total": 10,
+                "ticketweb": 8,
+                "_total": 8,
                 "_filtered": 0
               },
               "_links": {
@@ -2958,9 +3496,9 @@
                 "latitude": "43.048366"
               },
               "upcomingEvents": {
-                "ticketweb": 66,
+                "ticketweb": 60,
                 "ticketmaster": 1,
-                "_total": 67,
+                "_total": 61,
                 "_filtered": 0
               },
               "_links": {
@@ -3193,9 +3731,9 @@
                 "latitude": "43.048366"
               },
               "upcomingEvents": {
-                "ticketweb": 66,
+                "ticketweb": 60,
                 "ticketmaster": 1,
-                "_total": 67,
+                "_total": 61,
                 "_filtered": 0
               },
               "_links": {
@@ -3603,9 +4141,8 @@
               ],
               "upcomingEvents": {
                 "tmr": 1,
-                "ticketmaster": 2,
                 "ticketweb": 3,
-                "_total": 6,
+                "_total": 4,
                 "_filtered": 0
               },
               "_links": {
@@ -3839,528 +4376,14 @@
                 "latitude": "43.048366"
               },
               "upcomingEvents": {
-                "ticketweb": 66,
+                "ticketweb": 60,
                 "ticketmaster": 1,
-                "_total": 67,
+                "_total": 61,
                 "_filtered": 0
               },
               "_links": {
                 "self": {
                   "href": "/discovery/v2/venues/rZ7HnEZ178MpA?locale=en-us"
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
-        "name": "TX2",
-        "type": "event",
-        "id": "rZ7HnEZ1AfGvbd",
-        "test": false,
-        "url": "https://www.ticketweb.com/event/tx2-the-song-dance-tickets/14301603",
-        "locale": "en-us",
-        "images": [
-          {
-            "ratio": "16_9",
-            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_TABLET_LANDSCAPE_16_9.jpg",
-            "width": 1024,
-            "height": 576,
-            "fallback": false
-          },
-          {
-            "ratio": "16_9",
-            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RETINA_LANDSCAPE_16_9.jpg",
-            "width": 1136,
-            "height": 639,
-            "fallback": false
-          },
-          {
-            "ratio": "4_3",
-            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_CUSTOM.jpg",
-            "width": 305,
-            "height": 225,
-            "fallback": false
-          },
-          {
-            "ratio": "3_2",
-            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RETINA_PORTRAIT_3_2.jpg",
-            "width": 640,
-            "height": 427,
-            "fallback": false
-          },
-          {
-            "ratio": "3_2",
-            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_TABLET_LANDSCAPE_3_2.jpg",
-            "width": 1024,
-            "height": 683,
-            "fallback": false
-          },
-          {
-            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_SOURCE",
-            "width": 2624,
-            "height": 1365,
-            "fallback": false
-          },
-          {
-            "ratio": "3_2",
-            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_ARTIST_PAGE_3_2.jpg",
-            "width": 305,
-            "height": 203,
-            "fallback": false
-          },
-          {
-            "ratio": "16_9",
-            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_EVENT_DETAIL_PAGE_16_9.jpg",
-            "width": 205,
-            "height": 115,
-            "fallback": false
-          },
-          {
-            "ratio": "16_9",
-            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RECOMENDATION_16_9.jpg",
-            "width": 100,
-            "height": 56,
-            "fallback": false
-          },
-          {
-            "ratio": "16_9",
-            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RETINA_PORTRAIT_16_9.jpg",
-            "width": 640,
-            "height": 360,
-            "fallback": false
-          },
-          {
-            "ratio": "16_9",
-            "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-            "width": 2048,
-            "height": 1152,
-            "fallback": false
-          }
-        ],
-        "sales": {
-          "public": {
-            "startDateTime": "2025-03-21T14:00:00Z",
-            "startTBD": false,
-            "startTBA": false,
-            "endDateTime": "2025-05-24T23:30:00Z"
-          }
-        },
-        "dates": {
-          "access": {
-            "startDateTime": "2025-05-24T22:00:00Z",
-            "startApproximate": false,
-            "endApproximate": false
-          },
-          "start": {
-            "localDate": "2025-05-24",
-            "localTime": "19:00:00",
-            "dateTime": "2025-05-24T23:00:00Z",
-            "dateTBD": false,
-            "dateTBA": false,
-            "timeTBA": false,
-            "noSpecificTime": false
-          },
-          "end": {
-            "approximate": false,
-            "noSpecificTime": false
-          },
-          "timezone": "America/New_York",
-          "status": {
-            "code": "onsale"
-          },
-          "spanMultipleDays": false
-        },
-        "classifications": [
-          {
-            "primary": true,
-            "segment": {
-              "id": "KZFzniwnSyZfZ7v7nJ",
-              "name": "Music"
-            },
-            "genre": {
-              "id": "KnvZfZ7vAeA",
-              "name": "Rock"
-            },
-            "subGenre": {
-              "id": "KZazBEonSMnZfZ7v6AI",
-              "name": "Emo"
-            },
-            "type": {
-              "id": "KZAyXgnZfZ7v7nI",
-              "name": "Undefined"
-            },
-            "subType": {
-              "id": "KZFzBErXgnZfZ7v7lJ",
-              "name": "Undefined"
-            },
-            "family": false
-          },
-          {
-            "primary": false,
-            "segment": {
-              "id": "KZFzniwnSyZfZ7v7nJ",
-              "name": "Music"
-            },
-            "genre": {
-              "id": "KnvZfZ7vAeA",
-              "name": "Rock"
-            },
-            "subGenre": {
-              "id": "KZazBEonSMnZfZ7v6kl",
-              "name": "Hard Rock"
-            },
-            "type": {
-              "id": "KZAyXgnZfZ7v7nI",
-              "name": "Undefined"
-            },
-            "subType": {
-              "id": "KZFzBErXgnZfZ7v7lJ",
-              "name": "Undefined"
-            },
-            "family": false
-          }
-        ],
-        "info": "After Dark PresentsTX2with special guest Dark DivineAge Restriction: 16+ Admitted with ID / Under 16 Admitted with Guardian",
-        "pleaseNote": "This event is 16 and over. Any ticket holder unable to present valid identification indicating that they are at least 16 years of age will not be admitted to this event, and will not be eligible for a refund.",
-        "priceRanges": [
-          {
-            "type": "standard",
-            "currency": "USD",
-            "min": 31.85,
-            "max": 31.85
-          }
-        ],
-        "_links": {
-          "self": {
-            "href": "/discovery/v2/events/rZ7HnEZ1AfGvbd?locale=en-us"
-          },
-          "attractions": [
-            {
-              "href": "/discovery/v2/attractions/K8vZ917hIXf?locale=en-us"
-            },
-            {
-              "href": "/discovery/v2/attractions/K8vZ917hay7?locale=en-us"
-            }
-          ],
-          "venues": [
-            {
-              "href": "/discovery/v2/venues/rZ7HnEZ17fJkA?locale=en-us"
-            }
-          ]
-        },
-        "_embedded": {
-          "venues": [
-            {
-              "name": "The Song & Dance",
-              "type": "venue",
-              "id": "rZ7HnEZ17fJkA",
-              "test": false,
-              "url": "https://www.ticketweb.com/venue/the-song--dance-syracuse-ny/526185",
-              "locale": "en-us",
-              "postalCode": "13202",
-              "timezone": "America/New_York",
-              "city": {
-                "name": "Syracuse"
-              },
-              "state": {
-                "name": "New York",
-                "stateCode": "NY"
-              },
-              "country": {
-                "name": "United States Of America",
-                "countryCode": "US"
-              },
-              "address": {
-                "line1": " 115 E Jefferson Street"
-              },
-              "location": {
-                "longitude": "-76.1518037",
-                "latitude": "43.0474234"
-              },
-              "upcomingEvents": {
-                "ticketweb": 32,
-                "_total": 32,
-                "_filtered": 0
-              },
-              "_links": {
-                "self": {
-                  "href": "/discovery/v2/venues/rZ7HnEZ17fJkA?locale=en-us"
-                }
-              }
-            }
-          ],
-          "attractions": [
-            {
-              "name": "TX2",
-              "type": "attraction",
-              "id": "K8vZ917hIXf",
-              "test": false,
-              "url": "https://www.ticketmaster.com/tx2-tickets/artist/3049375",
-              "locale": "en-us",
-              "externalLinks": {
-                "musicbrainz": [
-                  {
-                    "id": "6093443d-d1fd-4bf0-b058-63840f11c0cd",
-                    "url": "https://musicbrainz.org/artist/6093443d-d1fd-4bf0-b058-63840f11c0cd"
-                  }
-                ]
-              },
-              "images": [
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_TABLET_LANDSCAPE_16_9.jpg",
-                  "width": 1024,
-                  "height": 576,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RETINA_LANDSCAPE_16_9.jpg",
-                  "width": 1136,
-                  "height": 639,
-                  "fallback": false
-                },
-                {
-                  "ratio": "4_3",
-                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_CUSTOM.jpg",
-                  "width": 305,
-                  "height": 225,
-                  "fallback": false
-                },
-                {
-                  "ratio": "3_2",
-                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_TABLET_LANDSCAPE_3_2.jpg",
-                  "width": 1024,
-                  "height": 683,
-                  "fallback": false
-                },
-                {
-                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_SOURCE",
-                  "width": 2624,
-                  "height": 1365,
-                  "fallback": false
-                },
-                {
-                  "ratio": "3_2",
-                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_ARTIST_PAGE_3_2.jpg",
-                  "width": 305,
-                  "height": 203,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_EVENT_DETAIL_PAGE_16_9.jpg",
-                  "width": 205,
-                  "height": 115,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RECOMENDATION_16_9.jpg",
-                  "width": 100,
-                  "height": 56,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RETINA_PORTRAIT_16_9.jpg",
-                  "width": 640,
-                  "height": 360,
-                  "fallback": false
-                },
-                {
-                  "ratio": "3_2",
-                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_RETINA_PORTRAIT_3_2.jpg",
-                  "width": 640,
-                  "height": 427,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/772/8ab9855a-bf9f-401a-bfcc-ab0aa2ebc772_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-                  "width": 2048,
-                  "height": 1152,
-                  "fallback": false
-                }
-              ],
-              "classifications": [
-                {
-                  "primary": true,
-                  "segment": {
-                    "id": "KZFzniwnSyZfZ7v7nJ",
-                    "name": "Music"
-                  },
-                  "genre": {
-                    "id": "KnvZfZ7vAvv",
-                    "name": "Alternative"
-                  },
-                  "subGenre": {
-                    "id": "KZazBEonSMnZfZ7vAvn",
-                    "name": "Alternative Rock"
-                  },
-                  "type": {
-                    "id": "KZAyXgnZfZ7v7la",
-                    "name": "Individual"
-                  },
-                  "subType": {
-                    "id": "KZFzBErXgnZfZ7vAde",
-                    "name": "Singer/Vocalist"
-                  },
-                  "family": false
-                }
-              ],
-              "upcomingEvents": {
-                "ticketmaster": 19,
-                "ticketweb": 3,
-                "_total": 22,
-                "_filtered": 0
-              },
-              "_links": {
-                "self": {
-                  "href": "/discovery/v2/attractions/K8vZ917hIXf?locale=en-us"
-                }
-              }
-            },
-            {
-              "name": "Dark Divine",
-              "type": "attraction",
-              "id": "K8vZ917hay7",
-              "test": false,
-              "url": "https://www.ticketmaster.com/dark-divine-tickets/artist/2975913",
-              "locale": "en-us",
-              "externalLinks": {
-                "spotify": [
-                  {
-                    "url": "https://open.spotify.com/artist/3CMyREgx8ZErRUydXlmCDX"
-                  }
-                ],
-                "musicbrainz": [
-                  {
-                    "id": "ba27e2d0-ca52-4e84-8130-a9ca10d15e74",
-                    "url": "https://musicbrainz.org/artist/ba27e2d0-ca52-4e84-8130-a9ca10d15e74"
-                  }
-                ],
-                "instagram": [
-                  {
-                    "url": "https://www.instagram.com/darkdivineofficial/"
-                  }
-                ]
-              },
-              "images": [
-                {
-                  "ratio": "4_3",
-                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_CUSTOM.jpg",
-                  "width": 305,
-                  "height": 225,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_TABLET_LANDSCAPE_16_9.jpg",
-                  "width": 1024,
-                  "height": 576,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_SOURCE",
-                  "width": 2426,
-                  "height": 1365,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-                  "width": 2048,
-                  "height": 1152,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_RETINA_LANDSCAPE_16_9.jpg",
-                  "width": 1136,
-                  "height": 639,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_RECOMENDATION_16_9.jpg",
-                  "width": 100,
-                  "height": 56,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_RETINA_PORTRAIT_16_9.jpg",
-                  "width": 640,
-                  "height": 360,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_EVENT_DETAIL_PAGE_16_9.jpg",
-                  "width": 205,
-                  "height": 115,
-                  "fallback": false
-                },
-                {
-                  "ratio": "3_2",
-                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_TABLET_LANDSCAPE_3_2.jpg",
-                  "width": 1024,
-                  "height": 683,
-                  "fallback": false
-                },
-                {
-                  "ratio": "3_2",
-                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_ARTIST_PAGE_3_2.jpg",
-                  "width": 305,
-                  "height": 203,
-                  "fallback": false
-                },
-                {
-                  "ratio": "3_2",
-                  "url": "https://s1.ticketm.net/dam/a/7e9/ca967c02-ebaa-4d31-9972-7f5f865a57e9_RETINA_PORTRAIT_3_2.jpg",
-                  "width": 640,
-                  "height": 427,
-                  "fallback": false
-                }
-              ],
-              "classifications": [
-                {
-                  "primary": true,
-                  "segment": {
-                    "id": "KZFzniwnSyZfZ7v7nJ",
-                    "name": "Music"
-                  },
-                  "genre": {
-                    "id": "KnvZfZ7vAeA",
-                    "name": "Rock"
-                  },
-                  "subGenre": {
-                    "id": "KZazBEonSMnZfZ7v6kl",
-                    "name": "Hard Rock"
-                  },
-                  "type": {
-                    "id": "KZAyXgnZfZ7v7l1",
-                    "name": "Group"
-                  },
-                  "subType": {
-                    "id": "KZFzBErXgnZfZ7vA71",
-                    "name": "Band"
-                  },
-                  "family": false
-                }
-              ],
-              "upcomingEvents": {
-                "ticketmaster": 17,
-                "ticketweb": 2,
-                "_total": 19,
-                "_filtered": 0
-              },
-              "_links": {
-                "self": {
-                  "href": "/discovery/v2/attractions/K8vZ917hay7?locale=en-us"
                 }
               }
             }
@@ -4590,8 +4613,8 @@
                 "latitude": "43.051315720388"
               },
               "upcomingEvents": {
-                "ticketweb": 10,
-                "_total": 10,
+                "ticketweb": 8,
+                "_total": 8,
                 "_filtered": 0
               },
               "_links": {
@@ -4824,9 +4847,9 @@
                 "latitude": "43.048366"
               },
               "upcomingEvents": {
-                "ticketweb": 66,
+                "ticketweb": 60,
                 "ticketmaster": 1,
-                "_total": 67,
+                "_total": 61,
                 "_filtered": 0
               },
               "_links": {
@@ -5055,9 +5078,9 @@
                 "latitude": "43.048366"
               },
               "upcomingEvents": {
-                "ticketweb": 66,
+                "ticketweb": 60,
                 "ticketmaster": 1,
-                "_total": 67,
+                "_total": 61,
                 "_filtered": 0
               },
               "_links": {
@@ -5284,9 +5307,9 @@
                 "latitude": "43.048366"
               },
               "upcomingEvents": {
-                "ticketweb": 66,
+                "ticketweb": 60,
                 "ticketmaster": 1,
-                "_total": 67,
+                "_total": 61,
                 "_filtered": 0
               },
               "_links": {
@@ -5520,9 +5543,9 @@
                 "latitude": "43.048366"
               },
               "upcomingEvents": {
-                "ticketweb": 66,
+                "ticketweb": 60,
                 "ticketmaster": 1,
-                "_total": 67,
+                "_total": 61,
                 "_filtered": 0
               },
               "_links": {
@@ -5745,473 +5768,14 @@
                 "latitude": "43.048366"
               },
               "upcomingEvents": {
-                "ticketweb": 66,
+                "ticketweb": 60,
                 "ticketmaster": 1,
-                "_total": 67,
+                "_total": 61,
                 "_filtered": 0
               },
               "_links": {
                 "self": {
                   "href": "/discovery/v2/venues/rZ7HnEZ178MpA?locale=en-us"
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
-        "name": "Brit Floyd",
-        "type": "event",
-        "id": "k7vGFbfYIu_d6",
-        "test": false,
-        "url": "https://www.ticketmaster.com/brit-floyd-syracuse-new-york-05-05-2025/event/0000614C283590C7",
-        "locale": "en-us",
-        "images": [
-          {
-            "ratio": "3_2",
-            "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_TABLET_LANDSCAPE_3_2.jpg",
-            "width": 1024,
-            "height": 683,
-            "fallback": false
-          },
-          {
-            "ratio": "16_9",
-            "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_TABLET_LANDSCAPE_16_9.jpg",
-            "width": 1024,
-            "height": 576,
-            "fallback": false
-          },
-          {
-            "ratio": "16_9",
-            "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_RETINA_LANDSCAPE_16_9.jpg",
-            "width": 1136,
-            "height": 639,
-            "fallback": false
-          },
-          {
-            "ratio": "16_9",
-            "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_RECOMENDATION_16_9.jpg",
-            "width": 100,
-            "height": 56,
-            "fallback": false
-          },
-          {
-            "ratio": "16_9",
-            "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_EVENT_DETAIL_PAGE_16_9.jpg",
-            "width": 205,
-            "height": 115,
-            "fallback": false
-          },
-          {
-            "ratio": "16_9",
-            "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_RETINA_PORTRAIT_16_9.jpg",
-            "width": 640,
-            "height": 360,
-            "fallback": false
-          },
-          {
-            "ratio": "4_3",
-            "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_SOURCE",
-            "width": 4000,
-            "height": 3000,
-            "fallback": false
-          },
-          {
-            "ratio": "16_9",
-            "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-            "width": 2048,
-            "height": 1152,
-            "fallback": false
-          },
-          {
-            "ratio": "3_2",
-            "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_RETINA_PORTRAIT_3_2.jpg",
-            "width": 640,
-            "height": 427,
-            "fallback": false
-          },
-          {
-            "ratio": "4_3",
-            "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_CUSTOM.jpg",
-            "width": 305,
-            "height": 225,
-            "fallback": false
-          },
-          {
-            "ratio": "3_2",
-            "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_ARTIST_PAGE_3_2.jpg",
-            "width": 305,
-            "height": 203,
-            "fallback": false
-          }
-        ],
-        "sales": {
-          "public": {
-            "startDateTime": "2024-10-18T14:00:00Z",
-            "startTBD": false,
-            "startTBA": false,
-            "endDateTime": "2025-05-06T00:00:00Z"
-          },
-          "presales": [
-            {
-              "startDateTime": "2024-10-17T14:00:00Z",
-              "endDateTime": "2024-10-18T02:00:00Z",
-              "name": "Presale"
-            }
-          ]
-        },
-        "dates": {
-          "start": {
-            "localDate": "2025-05-05",
-            "localTime": "20:00:00",
-            "dateTime": "2025-05-06T00:00:00Z",
-            "dateTBD": false,
-            "dateTBA": false,
-            "timeTBA": false,
-            "noSpecificTime": false
-          },
-          "timezone": "America/New_York",
-          "status": {
-            "code": "onsale"
-          },
-          "spanMultipleDays": false
-        },
-        "classifications": [
-          {
-            "primary": true,
-            "segment": {
-              "id": "KZFzniwnSyZfZ7v7nJ",
-              "name": "Music"
-            },
-            "genre": {
-              "id": "KnvZfZ7vAeA",
-              "name": "Rock"
-            },
-            "subGenre": {
-              "id": "KZazBEonSMnZfZ7v6F1",
-              "name": "Pop"
-            },
-            "type": {
-              "id": "KZAyXgnZfZ7v7nI",
-              "name": "Undefined"
-            },
-            "subType": {
-              "id": "KZFzBErXgnZfZ7v7lJ",
-              "name": "Undefined"
-            },
-            "family": false
-          }
-        ],
-        "promoter": {
-          "id": "494",
-          "name": "PROMOTED BY VENUE",
-          "description": "PROMOTED BY VENUE / NTL / USA"
-        },
-        "promoters": [
-          {
-            "id": "494",
-            "name": "PROMOTED BY VENUE",
-            "description": "PROMOTED BY VENUE / NTL / USA"
-          }
-        ],
-        "pleaseNote": "Accessible Companion Seating is not a Traditional Theater Style Seating. If you have further questions about purchasing accessible seating. Please contact the Venue Box Office at 315-435-2121.",
-        "seatmap": {
-          "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/0000614C283590C7/staticImage?type=png&systemId=HOST",
-          "id": "seatmap"
-        },
-        "accessibility": {
-          "ticketLimit": 4,
-          "id": "accessibility"
-        },
-        "ageRestrictions": {
-          "legalAgeEnforced": false,
-          "id": "ageRestrictions"
-        },
-        "ticketing": {
-          "safeTix": {
-            "enabled": true
-          },
-          "allInclusivePricing": {
-            "enabled": true
-          },
-          "id": "ticketing"
-        },
-        "_links": {
-          "self": {
-            "href": "/discovery/v2/events/k7vGFbfYIu_d6?locale=en-us"
-          },
-          "attractions": [
-            {
-              "href": "/discovery/v2/attractions/K8vZ917C96f?locale=en-us"
-            }
-          ],
-          "venues": [
-            {
-              "href": "/discovery/v2/venues/KovZpZAaFEtA?locale=en-us"
-            }
-          ]
-        },
-        "_embedded": {
-          "venues": [
-            {
-              "name": "The Oncenter Crouse Hinds Theater",
-              "type": "venue",
-              "id": "KovZpZAaFEtA",
-              "test": false,
-              "url": "https://www.ticketmaster.com/the-oncenter-crouse-hinds-theater-tickets-syracuse/venue/184",
-              "locale": "en-us",
-              "images": [
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dbimages/23276v.jpg",
-                  "width": 640,
-                  "height": 360,
-                  "fallback": false
-                }
-              ],
-              "postalCode": "13202",
-              "timezone": "America/New_York",
-              "city": {
-                "name": "Syracuse"
-              },
-              "state": {
-                "name": "New York",
-                "stateCode": "NY"
-              },
-              "country": {
-                "name": "United States Of America",
-                "countryCode": "US"
-              },
-              "address": {
-                "line1": "411 Montgomery Street"
-              },
-              "location": {
-                "longitude": "-76.14877624",
-                "latitude": "43.04630500"
-              },
-              "markets": [
-                {
-                  "name": "Upstate New York",
-                  "id": "44"
-                }
-              ],
-              "dmas": [
-                {
-                  "id": 213
-                },
-                {
-                  "id": 231
-                },
-                {
-                  "id": 237
-                },
-                {
-                  "id": 270
-                },
-                {
-                  "id": 372
-                },
-                {
-                  "id": 394
-                },
-                {
-                  "id": 406
-                },
-                {
-                  "id": 410
-                }
-              ],
-              "social": {
-                "twitter": {
-                  "handle": "@theoncenter"
-                }
-              },
-              "boxOfficeInfo": {
-                "phoneNumberDetail": "(315) 435-2121",
-                "openHoursDetail": "The Solvay Bank Box Office at The Oncenter is located on the State Street side of The Oncenter War Memorial Arena (760 S. State St.). To purchase tickets or for more information, you can call 315-435-2121. The Solvay Bank Box Office at The Oncenter is open Monday thru Friday from 10:00 a.m. to 5:00 p.m. and Saturday from 9:00 a.m. to 1:00 p.m. (closed Saturdays in the summer) The Solvay Bank Box Office at The Oncenter is closed on Sunday. During weekend events, the box office will open in the theater lobby one (1) hour prior to the start of the show.",
-                "acceptedPaymentDetail": "Cash, Visa, MC, Discover, American Express",
-                "willCallDetail": "Customers can pick up Will Call tickets one (1) hour prior to the show. Customers must present the actual credit card used to place the order and a photo I.D. Will Call is located inside the theater lobby."
-              },
-              "parkingDetail": "Parking is available in The Oncenter Parking Garage at 800 South State Street, Syracuse, NY 13202. Event parking varies from $8.00 to $12.00 depending on the event.",
-              "accessibleSeatingDetail": "Accessible Companion Seating is not a Traditional Theater Style Seating. Fans may purchase ADA seating via www.ticketmaster.com or at the venue box office. If you have further questions about purchasing accessible seating, please contact the Venue Box Office directly 315-435-2121. Venue Box Office Hours Monday-Friday 10am-3pm Saturday 10am-2pm Sunday Closed *Summer hours vary",
-              "generalInfo": {
-                "generalRule": "Assisted hearing devices are available to use for the length of a show. Please see an usher to obtain one.",
-                "childRule": "Please contact the box office for information"
-              },
-              "upcomingEvents": {
-                "ticketmaster": 19,
-                "_total": 19,
-                "_filtered": 0
-              },
-              "ada": {
-                "adaPhones": "315-435-2121",
-                "adaCustomCopy": "Accessible Companion Seating is not a Traditional Theater Style Seating. Fans may purchase ADA seating via www.ticketmaster.com or at the venue box office. If you have further questions about purchasing accessible seating, please contact the Venue Box Office directly 315-435-2121.",
-                "adaHours": "Venue Box Office Hours\nMonday-Friday 10am-3pm\nSaturday 10am-2pm *\nSunday Closed\n\n*Memorial Day-Labor Day closed on Saturday   \n"
-              },
-              "_links": {
-                "self": {
-                  "href": "/discovery/v2/venues/KovZpZAaFEtA?locale=en-us"
-                }
-              }
-            }
-          ],
-          "attractions": [
-            {
-              "name": "Brit Floyd",
-              "type": "attraction",
-              "id": "K8vZ917C96f",
-              "test": false,
-              "url": "https://www.ticketmaster.com/brit-floyd-tickets/artist/1585698",
-              "locale": "en-us",
-              "externalLinks": {
-                "youtube": [
-                  {
-                    "url": "https://www.youtube.com/channel/UCGMRI5pdnm5rTMrDT_c5r7Q"
-                  }
-                ],
-                "twitter": [
-                  {
-                    "url": "https://twitter.com/BritFloyd/"
-                  }
-                ],
-                "facebook": [
-                  {
-                    "url": "https://www.facebook.com/britfloydshow"
-                  }
-                ],
-                "musicbrainz": [
-                  {
-                    "id": "e9e93250-b122-4d4c-b48c-4d4f67a19ba2",
-                    "url": "https://musicbrainz.org/artist/e9e93250-b122-4d4c-b48c-4d4f67a19ba2"
-                  }
-                ],
-                "homepage": [
-                  {
-                    "url": "https://www.britfloyd.com/"
-                  }
-                ]
-              },
-              "images": [
-                {
-                  "ratio": "3_2",
-                  "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_TABLET_LANDSCAPE_3_2.jpg",
-                  "width": 1024,
-                  "height": 683,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_TABLET_LANDSCAPE_16_9.jpg",
-                  "width": 1024,
-                  "height": 576,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_RETINA_LANDSCAPE_16_9.jpg",
-                  "width": 1136,
-                  "height": 639,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_RECOMENDATION_16_9.jpg",
-                  "width": 100,
-                  "height": 56,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_EVENT_DETAIL_PAGE_16_9.jpg",
-                  "width": 205,
-                  "height": 115,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_RETINA_PORTRAIT_16_9.jpg",
-                  "width": 640,
-                  "height": 360,
-                  "fallback": false
-                },
-                {
-                  "ratio": "4_3",
-                  "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_SOURCE",
-                  "width": 4000,
-                  "height": 3000,
-                  "fallback": false
-                },
-                {
-                  "ratio": "16_9",
-                  "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-                  "width": 2048,
-                  "height": 1152,
-                  "fallback": false
-                },
-                {
-                  "ratio": "3_2",
-                  "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_RETINA_PORTRAIT_3_2.jpg",
-                  "width": 640,
-                  "height": 427,
-                  "fallback": false
-                },
-                {
-                  "ratio": "4_3",
-                  "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_CUSTOM.jpg",
-                  "width": 305,
-                  "height": 225,
-                  "fallback": false
-                },
-                {
-                  "ratio": "3_2",
-                  "url": "https://s1.ticketm.net/dam/a/e7d/51956dbd-9687-466a-a11c-cd91aeb4fe7d_ARTIST_PAGE_3_2.jpg",
-                  "width": 305,
-                  "height": 203,
-                  "fallback": false
-                }
-              ],
-              "classifications": [
-                {
-                  "primary": true,
-                  "segment": {
-                    "id": "KZFzniwnSyZfZ7v7nJ",
-                    "name": "Music"
-                  },
-                  "genre": {
-                    "id": "KnvZfZ7vAeA",
-                    "name": "Rock"
-                  },
-                  "subGenre": {
-                    "id": "KZazBEonSMnZfZ7v6da",
-                    "name": "Rock"
-                  },
-                  "type": {
-                    "id": "KZAyXgnZfZ7v7l1",
-                    "name": "Group"
-                  },
-                  "subType": {
-                    "id": "KZFzBErXgnZfZ7vAAI",
-                    "name": "Tribute Band"
-                  },
-                  "family": false
-                }
-              ],
-              "upcomingEvents": {
-                "mfx-dk": 3,
-                "mfx-se": 2,
-                "mfx-ch": 1,
-                "tmr": 16,
-                "mfx-nl": 5,
-                "ticketmaster": 41,
-                "mfx-no": 4,
-                "mfx-de": 8,
-                "mfx-it": 2,
-                "_total": 82,
-                "_filtered": 0
-              },
-              "_links": {
-                "self": {
-                  "href": "/discovery/v2/attractions/K8vZ917C96f?locale=en-us"
                 }
               }
             }
@@ -6409,9 +5973,220 @@
                 "latitude": "43.048366"
               },
               "upcomingEvents": {
-                "ticketweb": 66,
+                "ticketweb": 60,
                 "ticketmaster": 1,
-                "_total": 67,
+                "_total": 61,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/venues/rZ7HnEZ178MpA?locale=en-us"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "The West Side Travelling Rock Show featuring After School Special + The Killer Pancakes + Clockwork",
+        "type": "event",
+        "id": "rZ7HnEZ1AfGdGS",
+        "test": false,
+        "url": "https://www.ticketweb.com/event/the-west-side-travelling-rock-funk-n-waffles-tickets/14303333",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": true
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": true
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": true
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": true
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": true
+          },
+          {
+            "url": "https://i.ticketweb.com/i/00/12/95/16/83_Edp.jpg?v=3",
+            "width": 286,
+            "height": 427,
+            "fallback": false
+          }
+        ],
+        "sales": {
+          "public": {
+            "startDateTime": "2025-03-18T15:00:00Z",
+            "startTBD": false,
+            "startTBA": false,
+            "endDateTime": "2025-05-21T21:00:00Z"
+          }
+        },
+        "dates": {
+          "access": {
+            "startDateTime": "2025-05-21T22:00:00Z",
+            "startApproximate": false,
+            "endDateTime": "2025-05-22T01:00:00Z",
+            "endApproximate": false
+          },
+          "start": {
+            "localDate": "2025-05-21",
+            "localTime": "18:30:00",
+            "dateTime": "2025-05-21T22:30:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "end": {
+            "localDate": "2025-05-21",
+            "localTime": "21:00:00",
+            "dateTime": "2025-05-22T01:00:00Z",
+            "approximate": false,
+            "noSpecificTime": false
+          },
+          "timezone": "America/New_York",
+          "status": {
+            "code": "onsale"
+          },
+          "spanMultipleDays": false
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAeA",
+              "name": "Rock"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7v6da",
+              "name": "Rock"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7nI",
+              "name": "Undefined"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7v7lJ",
+              "name": "Undefined"
+            },
+            "family": false
+          }
+        ],
+        "pleaseNote": "This event is 18 and over. Any ticket holder unable to present valid identification indicating that they are at least 18 years of age will not be admitted to this event, and will not be eligible for a refund.",
+        "priceRanges": [
+          {
+            "type": "standard",
+            "currency": "USD",
+            "min": 13.07,
+            "max": 13.07
+          }
+        ],
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/events/rZ7HnEZ1AfGdGS?locale=en-us"
+          },
+          "venues": [
+            {
+              "href": "/discovery/v2/venues/rZ7HnEZ178MpA?locale=en-us"
+            }
+          ]
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Funk 'n Waffles",
+              "type": "venue",
+              "id": "rZ7HnEZ178MpA",
+              "test": false,
+              "url": "https://www.ticketweb.com/venue/funk-n-waffles-syracuse-ny/437585",
+              "locale": "en-us",
+              "postalCode": "13202",
+              "timezone": "America/New_York",
+              "city": {
+                "name": "Syracuse"
+              },
+              "state": {
+                "name": "New York",
+                "stateCode": "NY"
+              },
+              "country": {
+                "name": "United States Of America",
+                "countryCode": "US"
+              },
+              "address": {
+                "line1": "307-313 Clinton Street"
+              },
+              "location": {
+                "longitude": "-76.153423",
+                "latitude": "43.048366"
+              },
+              "upcomingEvents": {
+                "ticketweb": 60,
+                "ticketmaster": 1,
+                "_total": 61,
                 "_filtered": 0
               },
               "_links": {
@@ -6441,7 +6216,7 @@
   },
   "page": {
     "size": 20,
-    "totalElements": 136,
+    "totalElements": 124,
     "totalPages": 7,
     "number": 0
   }
